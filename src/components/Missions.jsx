@@ -1,11 +1,25 @@
 import React from 'react';
 import Title from './Title';
+import MissionCard from './MissionCard';
+import missions from '../data/missions';
 
 class Missions extends React.Component {
   render() {
     return (
       <div data-testid="missions">
         <Title headline="Missões" />
+        {missions.map((x) => {
+          const { name, year, country, destination } = x;
+          return (
+            <MissionCard
+              key={ name + year }
+              name={ name }
+              year={ year }
+              country={ country }
+              destination={ destination }
+            />
+          );
+        })}
       </div>
     );
   }
