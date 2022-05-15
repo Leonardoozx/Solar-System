@@ -9,6 +9,8 @@ body {
 header {
   text-align: center;
   font-size: 35px;
+  color: white;
+  opacity: 85%;
 }
 
 .solar-system {
@@ -27,12 +29,14 @@ header {
   background-color: whitesmoke;
   margin: 20px 2.7%;
   border-radius: 8px;
+  opacity: 85%;
   padding: 10px;
 }
 
 img {
   width: 200px;
   transition: 0.5s;
+  margin-bottom: 50px;
 }
 
 img:hover {
@@ -43,7 +47,17 @@ img:hover {
   display: flex;
   flex-direction: column;
   text-align: center;
+  opacity: 85%;
   align-items: center;
+}
+
+.mission-card {
+  background-color: white;
+  opacity: 85%;
+}
+
+.mission-card:hover {
+  opacity: 100%;
 }
 
 .missions h2 {

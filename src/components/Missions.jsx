@@ -12,6 +12,7 @@ class Missions extends React.Component {
           const { name, year, country, destination } = x;
           return (
             <MissionCard
+              className="mission-card"
               key={ name + year }
               name={ name }
               year={ JSON.parse(year) }
