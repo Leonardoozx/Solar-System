@@ -18,6 +18,8 @@
 
 ---
 
+# Como rodar o projeto
+
 1. Clone o repositório
   * Entre na pasta do repositório que você acabou de clonar
 
